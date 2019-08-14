@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Игра</title>
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="font-awesome/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body>
+
+    <div class="alert">
+        <div class="start">
+            <h3>Камень-ножницы-бумага</h3>
+            <input class="rounds" type="text" placeholder="Введите количество раундов">
+            <button>Старт!</button>
+            <p class="error">Вы ничего не ввели или ввели неправильно!!!</p>
+        </div>
+        <div class="end">
+            <h3>кОНЕЦ ИГРы</h3>
+            <h5>Cчет</h5>
+            <p><span class="ms">0</span> : <span class="ps">0</span></p>
+
+            <div class="win">
+                <h5>ВЫ победили!!!</h5>
+                <img src="win.gif" alt="">
+            </div>
+            <div class="lose">
+                <h5>ВЫ проиграли!!!</h5>
+                <img src="lose.gif" alt="">
+            </div>
+
+
+            <button>Ещё раз!</button>
+        </div>
+    </div>
+
+    <div class="block">
+        <div class="round">
+            <div>
+                <p>Раунд</p>
+                <span></span>
+            </div>
+            <div>
+                <p>Счёт</p>
+            </div>
+        </div>
+
+        <div class="half-block my">
+            <div class="my-score"></div>
+
+            <h1>Ваше игровое поле</h1>
+
+            <h2>Выберите ход :</h2>
+
+            <div class="choices">
+                <button class="choice"><i class="fas fa-hand-scissors"></i></button>
+                <button class="choice"><i class="fas fa-hand-paper"></i></button>
+                <button class="choice"><i class="fas fa-hand-rock"></i></button>
+            </div>
+
+            <h2>Вы выбрали :</h2>
+
+            <div class="chosen">
+                <h5></h5>
+                <button>Начать игру</button>
+            </div>
+
+
+        </div>
+
+        <div class="half-block">
+            <div class="your-score">0</div>
+
+            <h1>Игровое поле компьютера</h1>
+
+            <div class="loading">
+                <img src="pc.gif" alt="">
+                <div>
+                    <h6>Генерируется вывод</h6><span class="type-it">...</span>
+                </div>
+            </div>
+
+            <div class="pc-game">
+                <h5>Компьютер выбрал:</h5>
+                <div class="pc-choice"></div>
+
+                <h5 class="pc-result"></h5>
+
+                <button>Продолжить игру</button>
+            </div>
+
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
