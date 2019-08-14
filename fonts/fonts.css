@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src:
+        url('Roboto-Regular.eot') format('eot'),
+        url('Roboto-Regular.otf') format('otf'),
+        url('Roboto-Regular.svg') format('svg'),
+        url('Roboto-Regular.ttf') format('ttf'),
+        url('Roboto-Regular.woff') format('woff'),
+        url('Roboto-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-LightItalic';
+    src:
+        url('Roboto-LightItalic.eot') format('eot'),
+        url('Roboto-LightItalic.otf') format('otf'),
+        url('Roboto-LightItalic.svg') format('svg'),
+        url('Roboto-LightItalic.ttf') format('ttf'),
+        url('Roboto-LightItalic.woff') format('woff'),
+        url('Roboto-LightItalic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src:
+        url('Montserrat-Regular.eot') format('eot'),
+        url('Montserrat-Regular.otf') format('otf'),
+        url('Montserrat-Regular.svg') format('svg'),
+        url('Montserrat-Regular.ttf') format('ttf'),
+        url('Montserrat-Regular.woff') format('woff'),
+        url('Montserrat-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src:
+        url('Montserrat-Bold.eot') format('eot'),
+        url('Montserrat-Bold.otf') format('otf'),
+        url('Montserrat-Bold.svg') format('svg'),
+        url('Montserrat-Bold.ttf') format('ttf'),
+        url('Montserrat-Bold.woff') format('woff'),
+        url('Montserrat-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KaushanScript';
+    src:
+        url('KaushanScript.eot') format('eot'),
+        url('KaushanScript.otf') format('otf'),
+        url('KaushanScript.svg') format('svg'),
+        url('KaushanScript.ttf') format('ttf'),
+        url('KaushanScript.woff') format('woff'),
+        url('KaushanScript.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
